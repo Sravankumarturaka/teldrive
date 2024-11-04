@@ -1,5 +1,5 @@
 [db]
-  data-source = "postgresql://postgres.ahrqchqzjdwgwruczixw:[YOUR-PASSWORD]@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
+  data-source = "postgresql://postgres.ahrqchqzjdwgwruczixw:Turaka@200222@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
   prepare-stmt = true
   log-level = 1
   [db.pool]
