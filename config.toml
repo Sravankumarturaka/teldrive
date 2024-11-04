@@ -1,5 +1,5 @@
 [db]
-  data-source = ""
+  data-source = "postgresql://postgres.ahrqchqzjdwgwruczixw:[YOUR-PASSWORD]@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
   prepare-stmt = true
   log-level = 1
   [db.pool]
@@ -13,7 +13,7 @@
 
 [jwt]
   allowed-users = [""]
-  secret = ""
+  secret = "883f5a85b0e1fcda8eecb18bc1f0f0ecf19db408ef0015b5280d6b69b3692344"
   session-time = "30d"
 
 [log]
@@ -36,18 +36,17 @@
   lang-code = "en"
   lang-pack = "webk"
   rate = 100
-  rate-burst = 5
+  rate-burst = 50
   rate-limit = true
   session-file = ""
   system-lang-code = "en-US"
   system-version = "Win32"
-  proxy= "http://127.0.0.1:8080"
   
   [tg.uploads]
     encryption-key = ""
     retention = "7d"
     threads = 8
   [tg.stream]
-    multi-threads = 0
-    buffers = 8
+    multi-threads = 16
+    buffers = 32
 
